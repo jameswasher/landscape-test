@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A5079CB1C28E1F700353F1C /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5079CA1C28E1F700353F1C /* MainVC.swift */; };
 		1A84CF751C28DACD00EED6DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A84CF741C28DACD00EED6DA /* AppDelegate.swift */; };
 		1A84CF771C28DACD00EED6DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A84CF761C28DACD00EED6DA /* ViewController.swift */; };
 		1A84CF7A1C28DACD00EED6DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A84CF781C28DACD00EED6DA /* Main.storyboard */; };
 		1A84CF7C1C28DACD00EED6DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A84CF7B1C28DACD00EED6DA /* Assets.xcassets */; };
 		1A84CF7F1C28DACD00EED6DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A84CF7D1C28DACD00EED6DA /* LaunchScreen.storyboard */; };
+		1A84CF871C28DD1900EED6DA /* LandscapeOnlyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A84CF861C28DD1900EED6DA /* LandscapeOnlyVC.swift */; };
+		1AD522E91C29BA70003F97B6 /* NavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD522E81C29BA70003F97B6 /* NavVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A5079CA1C28E1F700353F1C /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		1A84CF711C28DACD00EED6DA /* landscape-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "landscape-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A84CF741C28DACD00EED6DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A84CF761C28DACD00EED6DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		1A84CF7B1C28DACD00EED6DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A84CF7E1C28DACD00EED6DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A84CF801C28DACD00EED6DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A84CF861C28DD1900EED6DA /* LandscapeOnlyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandscapeOnlyVC.swift; sourceTree = "<group>"; };
+		1AD522E81C29BA70003F97B6 /* NavVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +60,12 @@
 		1A84CF731C28DACD00EED6DA /* landscape-test */ = {
 			isa = PBXGroup;
 			children = (
+				1A5079CA1C28E1F700353F1C /* MainVC.swift */,
 				1A84CF741C28DACD00EED6DA /* AppDelegate.swift */,
 				1A84CF761C28DACD00EED6DA /* ViewController.swift */,
 				1A84CF781C28DACD00EED6DA /* Main.storyboard */,
+				1AD522E81C29BA70003F97B6 /* NavVC.swift */,
+				1A84CF861C28DD1900EED6DA /* LandscapeOnlyVC.swift */,
 				1A84CF7B1C28DACD00EED6DA /* Assets.xcassets */,
 				1A84CF7D1C28DACD00EED6DA /* LaunchScreen.storyboard */,
 				1A84CF801C28DACD00EED6DA /* Info.plist */,
@@ -135,6 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A84CF871C28DD1900EED6DA /* LandscapeOnlyVC.swift in Sources */,
+				1AD522E91C29BA70003F97B6 /* NavVC.swift in Sources */,
+				1A5079CB1C28E1F700353F1C /* MainVC.swift in Sources */,
 				1A84CF771C28DACD00EED6DA /* ViewController.swift in Sources */,
 				1A84CF751C28DACD00EED6DA /* AppDelegate.swift in Sources */,
 			);
@@ -286,6 +298,7 @@
 				1A84CF851C28DACD00EED6DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
